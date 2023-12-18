@@ -1,0 +1,46 @@
+/* Root style applies to the entire application */
+.root {
+    -fx-font-family: 'Comic Sans MS'; /* Sets the default font to Comic Sans MS */
+    -fx-base: #9fd0f6; /* Base color used for most controls like buttons */
+    -fx-background-color: #e6f4ff; /* Background color for the application */
+}
+
+/* Style for all buttons */
+.button {
+    -fx-background-color: #9fd0f6; /* Button background color */
+    -fx-text-fill: #ffffff; /* Text color inside buttons */
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 ); /* Adds a drop shadow effect */
+}
+
+/* Style for the table view component */
+.table-view {
+    -fx-table-cell-border-color: transparent; /* Makes the cell borders in the table transparent */
+}
+
+/* Style for selected rows in the table */
+.table-row-cell:filled:selected {
+    -fx-background-color: #a4c2f4; /* Background color for selected rows */
+}
+
+/* Style for hovered rows in the table */
+.table-row-cell:filled:hover {
+    -fx-background-color: #c9f88c; /* Background color when hovering over a row */
+}
+
+/* Style for labels */
+.label {
+    -fx-font-family: 'Comic Sans MS'; /* Font for labels */
+    -fx-font-size: 14px; /* Font size for labels */
+}
+
+/* Additional style for buttons, overriding some properties if needed */
+.button {
+    -fx-font-family: 'Comic Sans MS'; /* Font for buttons */
+    -fx-font-size: 14px; /* Font size for buttons */
+}
+
+/* Style for text fields */
+.text-field {
+    -fx-font-family: 'Comic Sans MS'; /* Font for text fields */
+    -fx-font-size: 14px; /* Font size for text fields */
+}
